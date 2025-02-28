@@ -31,11 +31,11 @@ El proyecto está dividido en las siguientes etapas:
 
 Los datos provienen de registros de consumo de usuarios de telefonía, organizados en los siguientes archivos:
 
-`megaline_calls.csv` -> Registros de llamadas realizadas por los usuarios. 
-`megaline_messages.csv` -> Registros de mensajes enviados. 
-`megaline_internet.csv` -> Datos de consumo de internet. 
-`megaline_users.csv` -> Información demográfica y plan de cada usuario. 
-`megaline_plans.csv` -> Características de los planes de telefonía. 
+- `megaline_calls.csv` -> Registros de llamadas realizadas por los usuarios. 
+- `megaline_messages.csv` -> Registros de mensajes enviados. 
+- `megaline_internet.csv` -> Datos de consumo de internet. 
+- `megaline_users.csv` -> Información demográfica y plan de cada usuario. 
+- `megaline_plans.csv` -> Características de los planes de telefonía. 
 
 
 ## 3. Modelos Evaluados y Resultados
@@ -43,7 +43,9 @@ Los datos provienen de registros de consumo de usuarios de telefonía, organizad
 Se compararon dos modelos principales de regresión:
 
 Modelo - MSE - MAE - R² 
+
 **Regresión Lineal** | 0.1301 | 0.3055 | 0.8661 |
+
 **Gradient Descent (SGD)** | 0.1300 | 0.3052 | 0.8662 |
 
 Ambos modelos lograron **resultados equivalentes**, por lo que se seleccionó **Regresión Lineal** debido a su menor costo computacional en datasets pequeños.
@@ -51,8 +53,13 @@ Ambos modelos lograron **resultados equivalentes**, por lo que se seleccionó **
 
 ## 5. Instalación y Uso
 
-Hay un archivo requirement.txt ejecuta este comando:
-pip install requirements.txt
+### 5.1 Instalación de Dependencias
+Ejecuta el siguiente comando para instalar todas las librerías necesarias:
+pip install -r requirements.txt
+
+Para ejecutar los notebooks del proyecto, inicia Jupyter Notebook con:
+jupyter notebook
+
 
 Autor: Roberth Lara
 Fecha: 28/feb/2025
