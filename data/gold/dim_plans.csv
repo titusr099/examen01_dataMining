@@ -1,3 +1,3 @@
-plan_name,cost_monthly,mb_included,price_per_gb,price_per_sms,price_per_min
-surf,20,15360,10,0.03,0.03
-ultimate,70,30720,7,0.01,0.01
+messages_included,mb_included,minutes_included,cost_monthly,price_per_gb,price_per_sms,price_per_min,plan_name
+50,15360,500,20,10,0.03,0.03,surf
+1000,30720,3000,70,7,0.01,0.01,ultimate
