@@ -55,11 +55,14 @@ Ambos modelos lograron **resultados equivalentes**, por lo que se seleccionó **
 
 ### 5.1 Instalación de Dependencias
 Ejecuta el siguiente comando para instalar todas las librerías necesarias:
+
 pip install -r requirements.txt
 
 Para ejecutar los notebooks del proyecto, inicia Jupyter Notebook con:
+
 jupyter notebook
 
 
 Autor: Roberth Lara
+
 Fecha: 28/feb/2025
